@@ -20,11 +20,14 @@ export default function Work() {
                 <div className="flex flex-col justify-center items-center gap-4">
                   <p>{project.name}</p>
                   <div className="flex gap-3">
-                    <a href={project.demo} target="_blank">
-                      <button className="rounded px-2 py-1 bg-slate-200 text-black">
-                        Demo
-                      </button>
-                    </a>
+                    {project.demo && (
+                      <a href={project.demo} target="_blank">
+                        <button className="rounded px-2 py-1 bg-slate-200 text-black">
+                          Demo
+                        </button>
+                      </a>
+                    )}
+
                     <a href={project.code} target="_blank">
                       <button className="rounded px-2 py-1 bg-slate-200 text-black">
                         Code

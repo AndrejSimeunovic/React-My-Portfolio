@@ -1,5 +1,19 @@
 export const data = [
   {
+    id: 12,
+    name: "MERN blog",
+    image: "/images/projects/blog.png",
+    demo: "",
+    code: "https://github.com/AndrejSimeunovic/MERN-Blog-App",
+  },
+  {
+    id: 13,
+    name: "MERN chat",
+    image: "/images/projects/chat.png",
+    demo: "",
+    code: "https://github.com/AndrejSimeunovic/MERN-Chat",
+  },
+  {
     id: 1,
     name: "Budget",
     image: "/images/projects/budget.png",
