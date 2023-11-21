@@ -1,13 +1,13 @@
 export const data = [
   {
-    id: 12,
+    id: 13,
     name: "MERN blog",
     image: "/images/projects/blog.png",
     demo: "",
     code: "https://github.com/AndrejSimeunovic/MERN-Blog-App",
   },
   {
-    id: 13,
+    id: 14,
     name: "MERN chat",
     image: "/images/projects/chat.png",
     demo: "",
@@ -57,34 +57,27 @@ export const data = [
   },
   {
     id: 7,
-    name: "Budget",
-    image: "/images/projects/budget.png",
-    demo: "https://friendly-semifreddo-65a4bc.netlify.app/",
-    code: "https://github.com/AndrejSimeunovic/React-Budget-App",
-  },
-  {
-    id: 8,
     name: "Tic-Tac-Toe",
     image: "/images/projects/tic-tac-toe.png",
     demo: "https://6304cb1aaecc3600583b3220--keen-fudge-ed31d4.netlify.app/",
     code: "https://github.com/AndrejSimeunovic/Tic-Tac-Toe",
   },
   {
-    id: 9,
+    id: 8,
     name: "Rock-Paper-Scissors",
     image: "/images/projects/rps.png",
     demo: "https://frolicking-narwhal-db6c24.netlify.app/",
     code: "https://github.com/AndrejSimeunovic/Rock-Paper-Scissors",
   },
   {
-    id: 10,
+    id: 9,
     name: "Fifa-Ultimate-Team",
     image: "/images/projects/FUT.png",
     demo: "https://6304c970e4667c765aa980ec--roaring-alpaca-188252.netlify.app/",
     code: "https://github.com/AndrejSimeunovic/Fifa-Ultimate-Team-Website",
   },
   {
-    id: 11,
+    id: 10,
     name: "Calculator",
     image: "/images/projects/calculator.png",
     demo: "https://6304c8ebf1bcd4787def9703--leafy-brigadeiros-09a1f9.netlify.app/",
@@ -98,7 +91,7 @@ export const data = [
     code: "https://github.com/AndrejSimeunovic/admin-dashboard",
   },
   {
-    id: 11,
+    id: 12,
     name: "Javascript-Snake-Game",
     image: "/images/projects/snake.png",
     demo: "https://6304c22f158a2f005abd6d25--prismatic-faun-2b4dfa.netlify.app/",
