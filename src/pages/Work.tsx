@@ -16,7 +16,7 @@ export default function Work() {
               />
 
               {/**hover */}
-              <div className="flex justify-center items-center gap-2 opacity-0 group-hover:opacity-100 border bg-blue-500 absolute inset-0 rounded p-3">
+              <div className="flex justify-center items-center gap-2 opacity-0 group-hover:opacity-100 border bg-gradient-to-r from-indigo-500 to-blue-700 absolute inset-0 rounded p-3">
                 <div className="flex flex-col justify-center items-center gap-4">
                   <p>{project.name}</p>
                   <div className="flex gap-3">

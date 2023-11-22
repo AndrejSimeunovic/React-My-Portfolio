@@ -6,7 +6,7 @@ export default function Home() {
     <div id="home" className="h-screen w-full">
       <div className="flex flex-col justify-center h-full max-w-xl px-8 mx-auto">
         <img
-          className="rounded-full self-center mb-3"
+          className="rounded-full self-center mb-3 border-2 border-white shadow-md shadow-black"
           width={90}
           height={90}
           src="/images/Andrej.jpg"
@@ -20,11 +20,11 @@ export default function Home() {
           As a recent graduate in Computer Science, I am a highly motivated and
           dedicated professional with a strong passion for the field.
         </div>
-        <button className="border  bg-inherit mr-auto p-2 gap-1 flex text-white mt-2 hover:bg-yellow-900">
+        <button className="border  bg-inherit mr-auto p-2 gap-1 flex group text-white mt-2 hover:bg-yellow-900">
           <Link to="work" smooth={true} duration={500}>
             View Work
           </Link>
-          <ArrowRight />
+          <ArrowRight className="group-hover:rotate-90 duration-500" />
         </button>
       </div>
     </div>
