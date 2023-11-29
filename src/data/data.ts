@@ -1,4 +1,4 @@
-export const data = [
+export const projects = [
   {
     id: 13,
     name: "MERN blog",
@@ -96,5 +96,143 @@ export const data = [
     image: "/images/projects/snake.png",
     demo: "https://6304c22f158a2f005abd6d25--prismatic-faun-2b4dfa.netlify.app/",
     code: "https://github.com/AndrejSimeunovic/Javascript-Snake-Game",
+  },
+];
+
+export const techExp = [
+  {
+    title: "M.Sc. Computer Science and Engineering",
+    company_name: "Lund University, LTH",
+    date: "2018 - 2023",
+    description: [],
+    icon: "/images/lth.png",
+  },
+  {
+    title: "Micro Frontends",
+    company_name: "Master thesis, IKEA",
+    date: "2023",
+    description: [
+      "The thesis investigated the possibility of sharing, finding, and publishing Micro Frontends at IKEA to achieve code reusability, minimize code duplication, eliminate communication overhead as well as eliminate the need for a change in a team's current tech stack.",
+      "Our experiment with Micro Frontends revolved around exploring techniques to efficiently share and integrate diverse versions of React components, ultimately aiming to create a seamless and unified application. Furthermore, we explored the possibilities of combining bundlers like Vite and Webpack to further enhance our exploration.",
+    ],
+    icon: "/images/ikea.png",
+  },
+  {
+    title: "Own work",
+    company_name: "Home",
+    date: "2022 - 2023",
+    description: [
+      "I have dedicated my spare time to creating a wide range of applications, from pure front-end to full-stack, utilizing technologies like HTML/CSS, TailwindCss, JavaScript/Typescript, React, Node.js, Express.js, and MongoDB.",
+    ],
+    icon: "",
+  },
+  {
+    title: "Advanced Interaction Design",
+    company_name: "Lund University, LTH",
+    date: "2023",
+    description: [
+      "A group project where I developed a Runners app on Android Studio Java for tracking running activity, focusing on pace and implementing GPS, voice control, touch sound, and vibration.",
+    ],
+    icon: "/images/lth.png",
+  },
+  {
+    title: "Web Development",
+    company_name: "Lund University, LTH",
+    date: "2022",
+    description: [
+      "Created a salad bar application using React as a framework and a movie site using Angular as a framework. While working on the following projects I learned the foundations of HTML, CSS, JavaScript, and TypeScript.",
+      "Created a secure webshop with PHP that has a good password policy and stores the username/password in a database(MySQL) in a secure way. The webshop prevents brute force attacks, time-memory tradeoff attacks (TMTO), cross-site scripting(XSS), SQL injection, and cross-site request forgery(CSRF).",
+    ],
+    icon: "/images/lth.png",
+  },
+  {
+    title: "REST API",
+    company_name: "Lund University, LTH",
+    date: "2022",
+    description: [
+      "Created a REST API in Python using bottle, a micro web-framework for Python. The REST API was connected to a SQLite database, which I also constructed with E/R modeling and SQL, for handling different processes regarding cookie delivery and storage.",
+    ],
+    icon: "/images/lth.png",
+  },
+  {
+    title: "Software Development with eXtreme programming",
+    company_name: "Lund University, LTH",
+    date: "2021",
+    description: [
+      "Simulated agile development (eXtreme programming) over a 7-week period, where our 10-man developing team programmed in pairs.",
+    ],
+    icon: "/images/lth.png",
+  },
+  {
+    title: "Software Development with Scrum as project leader",
+    company_name: "Lund University, LTH",
+    date: "2021",
+    description: [
+      "Was a project leader for a team consisting of 18 persons assigned with different roles simulating a scrum project over a 10-week period. My role was to set up the entire project in terms of assigning roles, choosing different tools, the work process, and writing a software development plan report. I also held meetings with the group on a weekly basis.",
+    ],
+    icon: "/images/lth.png",
+  },
+  {
+    title: "Malmö Idrottsgymnasium (MIG)",
+    company_name: "Elite High School For Athletes (Soccer Player)",
+    date: "2014 - 2017",
+    description: [],
+    icon: "/images/mig.png",
+  },
+];
+
+export const skills = [
+  {
+    name: "HMTL",
+    icon: "/images/html.png",
+  },
+  {
+    name: "CSS",
+    icon: "/images/css.png",
+  },
+  {
+    name: "TailwindCSS",
+    icon: "/images/tailwind.png",
+  },
+  {
+    name: "JavaScript",
+    icon: "/images/javascript.png",
+  },
+
+  {
+    name: "React",
+    icon: "/images/react.png",
+  },
+  {
+    name: "Angular",
+    icon: "/images/angular.png",
+  },
+  {
+    name: "Node.js",
+    icon: "/images/node.png",
+  },
+  {
+    name: "MongoDB",
+    icon: "/images/mongo.png",
+  },
+  {
+    name: "Java",
+    icon: "/images/java.png",
+  },
+  {
+    name: "Python",
+    icon: "/images/python.png",
+  },
+  {
+    name: "PHP",
+    icon: "/images/php.png",
+  },
+  {
+    name: "Haskell",
+    icon: "/images/haskell.png",
+  },
+  {
+    name: "GitHub",
+    icon: "/images/github.png",
   },
 ];

@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
-    @apply bg-sky-950;
+    @apply bg-gradient-to-tr from-green-950 to-slate-900;
     @apply font-[Raleway]
 }
