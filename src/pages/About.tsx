@@ -25,7 +25,7 @@ export default function About() {
             variants={textVariant(0)}
             className="border-b-4 border-b-yellow-900 text-4xl font-bold"
           >
-            About
+            About Me
           </motion.p>
           <div className="flex items-center px-4 gap-3">
             <motion.p

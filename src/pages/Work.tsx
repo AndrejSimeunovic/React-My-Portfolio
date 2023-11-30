@@ -37,14 +37,14 @@ export default function Work() {
           initial="hidden"
           animate={controls}
         >
-          // These are the projects I have worked with
+          These are the projects I have worked with
         </motion.p>
         <motion.div
           ref={ref}
           variants={textVariant(1)}
           initial="hidden"
           animate={controls}
-          className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-4 h-[300px] px-3 overflow-auto"
+          className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-4 h-[300px] px-3 overflow-auto md:scrollbar"
         >
           {projects.map((project) => (
             <div
