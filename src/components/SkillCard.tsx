@@ -14,7 +14,7 @@ export default function SkillCard({ name, icon, index }: SkillCardProps) {
   const skillVariant = {
     visible: {
       opacity: 1,
-      transition: { ease: "easeInOut", duration: 0.5, delay: index * 0.1 },
+      transition: { ease: "easeInOut", duration: 1, delay: index * 0.01 },
     },
     hidden: { opacity: 0 },
   };
