@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 body {
-    /* @apply bg-gradient-to-tr from-green-950 to-slate-900;*/
-    @apply bg-site bg-cover bg-no-repeat;
+    @apply bg-gradient-to-tr from-green-950 to-slate-900;
+    /*@apply bg-site bg-cover bg-no-repeat;*/
     @apply font-[Raleway]
 }
 

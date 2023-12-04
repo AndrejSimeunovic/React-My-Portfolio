@@ -101,7 +101,7 @@ export default function Home() {
           animate={controls}
           initial="hidden"
           variants={imgVariants}
-          className="rounded-full self-center mb-3 border-2 border-white shadow-lg shadow-white md:w-[300px] md:h-[300px] hover:animate-pulse"
+          className="rounded-full self-center mb-3 border-2 border-white shadow-lg shadow-white md:w-[350px] md:h-[400px] hover:animate-pulse"
           width={100}
           height={100}
           src="/images/Andrej.jpg"
