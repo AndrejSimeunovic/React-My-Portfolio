@@ -20,10 +20,12 @@ export default function Work() {
     }
   }, [controls, inView]);
   return (
-    <div id="work" className="h-screen w-full text-gray-300">
-      <div className="h-full flex flex-col max-w-[1000px] mx-auto gap-3 px-3 justify-center">
+    <div id="work" className="w-full text-gray-300">
+      <div
+        ref={ref}
+        className="flex flex-col  mx-auto gap-3 px-3 justify-center"
+      >
         <motion.p
-          ref={ref}
           variants={borderVariant}
           initial="hidden"
           animate={controls}
@@ -32,7 +34,6 @@ export default function Work() {
           Work
         </motion.p>
         <motion.p
-          ref={ref}
           variants={textVariant(0.5)}
           initial="hidden"
           animate={controls}
@@ -40,11 +41,10 @@ export default function Work() {
           These are the projects I have worked with
         </motion.p>
         <motion.div
-          ref={ref}
           variants={textVariant(1)}
           initial="hidden"
           animate={controls}
-          className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-4 h-[300px] px-3 overflow-auto md:scrollbar"
+          className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-4  px-3 overflow-auto md:scrollbar mb-4"
         >
           {projects.map((project) => (
             <div

@@ -30,7 +30,7 @@ export default function TechExperienceCard({
       <h4 className="vertical-timeline-element-subtitle">{company_name}</h4>
       <ul className="list-disc flex flex-col gap-3 mt-3">
         {description.map((desc, index) => (
-          <li key={index}>{desc}</li>
+          <li className="leading-loose" key={index}>{desc}</li>
         ))}
       </ul>
     </VerticalTimelineElement>

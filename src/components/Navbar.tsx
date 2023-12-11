@@ -50,7 +50,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="hover:border-b-4 hover:border-green-400 duration-100 cursor-pointer">
-          <Link to="work" smooth={true} duration={500}>
+          <Link to="work" smooth={true} duration={500} offset={-100}>
             Work
           </Link>
         </li>
@@ -130,6 +130,7 @@ export default function Navbar() {
                 to="work"
                 smooth={true}
                 duration={500}
+                offset={-100}
               >
                 Work
               </Link>

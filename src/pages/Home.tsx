@@ -26,7 +26,7 @@ export default function Home() {
   }, [controls, inView]);
   return (
     <div id="home" className="h-screen w-full">
-      <div className="flex justify-center flex-col-reverse md:flex-row md:justify-between items-center h-full max-w-[1000px]  px-8 mx-auto">
+      <div className="flex justify-center flex-col-reverse md:flex-row md:justify-between items-center h-full max-w-[1000px] pb-20 px-8 mx-auto">
         <motion.div
           ref={ref}
           animate={controls}
@@ -35,8 +35,8 @@ export default function Home() {
           className="md:max-w-[400px] w-full"
         >
           <div className="text-green-400 text-sm font-bold">Hi, my name is</div>
-          <div className="text-5xl text-slate-400">Andrej Simeunovic</div>
-          <span className="text-2xl text-gray-300">And I'm a </span>
+          <div className="text-5xl text-slate-400 leading-[3.3rem]">Andrej Simeunovic</div>
+          <span className="text-2xl text-gray-300 leading-[3.3rem]">And I'm a </span>
 
           <TypeAnimation
             sequence={[
@@ -51,10 +51,6 @@ export default function Home() {
             className="text-2xl text-green-400"
             repeat={Infinity}
           />
-          {/* <div className="text-sm text-gray-500">
-            As a recent graduate in Computer Science, I am a highly motivated
-            and dedicated professional with a strong passion for the field.
-  </div>*/}
           <div className="flex gap-3 my-4">
             <a
               className="flex justify-between items-center  border border-green-400 rounded-full p-3 hover:bg-green-700  shadow-md hover:shadow-white duration-300"

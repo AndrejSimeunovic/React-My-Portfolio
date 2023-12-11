@@ -27,7 +27,7 @@ export default function About() {
           >
             About Me
           </motion.p>
-          <div className="flex items-center px-4 gap-3">
+          <div className="flex items-center px-4 gap-3 leading-loose">
             <motion.p
               ref={ref}
               initial="hidden"

@@ -31,7 +31,7 @@ export default function TechExperience() {
       >
         <p className="text-gray-500">What I have done so far</p>
         <h3 className="text-4xl text-gray-300">
-          Tehncial Experience & Education
+          Technical Experience & Education
         </h3>
       </motion.div>
       <VerticalTimeline>
