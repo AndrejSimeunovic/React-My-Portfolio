@@ -35,8 +35,12 @@ export default function Home() {
           className="md:max-w-[400px] w-full"
         >
           <div className="text-green-400 text-sm font-bold">Hi, my name is</div>
-          <div className="text-5xl text-slate-400 leading-[3.3rem]">Andrej Simeunovic</div>
-          <span className="text-2xl text-gray-300 leading-[3.3rem]">And I'm a </span>
+          <div className="text-5xl text-slate-400 leading-[3.3rem]">
+            Andrej Simeunovic
+          </div>
+          <span className="text-2xl text-gray-300 leading-[3.3rem]">
+            And I'm a{" "}
+          </span>
 
           <TypeAnimation
             sequence={[
@@ -69,7 +73,7 @@ export default function Home() {
           </div>
           {/**projectbtn */}
           <button className="border md:hidden bg-inherit mr-auto p-2 gap-1 flex group text-white mt-2 hover:text-green-400">
-            <Link to="work" smooth={true} duration={500}>
+            <Link to="work" smooth={true} duration={500} offset={-100}>
               View Work
             </Link>
             <ArrowRight className="group-hover:rotate-90 duration-500" />
@@ -78,6 +82,7 @@ export default function Home() {
             to="work"
             smooth={true}
             duration={500}
+            offset={-100}
             className="hidden mr-auto group relative md:flex justify-center items-center w-fit cursor-pointer"
           >
             <img
