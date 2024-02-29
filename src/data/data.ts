@@ -1,5 +1,12 @@
 export const projects = [
   {
+    id: 15,
+    name: "Lyrixs",
+    image: "/images/projects/lyrixs.png",
+    demo: "https://lyrixs.netlify.app/",
+    code: "https://github.com/AndrejSimeunovic/React-Spotify-Clone",
+  },
+  {
     id: 13,
     name: "MERN blog",
     image: "/images/projects/blog.png",
