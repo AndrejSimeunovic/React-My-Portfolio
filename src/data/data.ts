@@ -3,7 +3,7 @@ export const projects = [
     id: 15,
     name: "Lyrixs",
     image: "/images/projects/lyrixs.png",
-    demo: "https://lyrixs.netlify.app/",
+    demo: "",
     code: "https://github.com/AndrejSimeunovic/React-Spotify-Clone",
   },
   {
