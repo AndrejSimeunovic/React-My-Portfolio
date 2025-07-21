@@ -24,7 +24,7 @@ export default function TechExperienceCard({
       contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
       date={date}
       iconStyle={{ background: "white", color: "green" }}
-      icon={icon ? <img src={icon} /> : <Home />}
+      icon={icon ? <img src={icon} className="rounded-full" /> : <Home />}
     >
       <h3 className="vertical-timeline-element-title">{title}</h3>
       <h4 className="vertical-timeline-element-subtitle">{company_name}</h4>

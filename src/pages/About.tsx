@@ -34,11 +34,14 @@ export default function About() {
               animate={controls}
               variants={textVariant(0.5)}
             >
-              Motivated Computer Science and Engineering graduate known for
-              excelling in collaborative settings, drawing on strong
-              communication, teamwork, motivation, time management, and
-              interpersonal skills developed through my background as a football
-              player.
+              Junior Software Engineer with hands-on experience building
+              production-ready applications using TypeScript, React, GraphQL,
+              and NestJS. Proven track record of delivering features end-to-end
+              in cross-functional teams, from planning to deployment. Former
+              professional footballer, bringing discipline, teamwork, and a
+              drive for continuous improvement to every project. Passionate
+              about building impactful products and growing as a software
+              engineer.
             </motion.p>
             <motion.p
               ref={ref}

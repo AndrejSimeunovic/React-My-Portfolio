@@ -108,6 +108,16 @@ export const projects = [
 
 export const techExp = [
   {
+    title: "Software Engineer",
+    company_name: "Sinch",
+    date: "2024 - Present",
+    description: [
+      "Built the Sinch RCS Dashboard using TypeScript, React, GraphQL, and NestJS, enabling businesses to create, test, and launch RCS agents; contributed end-to-end across planning, development, and production deployment",
+      "Implemented SMS-to-RCS upscaling features in both the internal portal and customer dashboard as part of a cross-functional task force, actively contributing from design discussions through to production rollout",
+    ],
+    icon: "/images/sinch.png",
+  },
+  {
     title: "M.Sc. Computer Science and Engineering",
     company_name: "Lund University, LTH",
     date: "2018 - 2023",
@@ -190,25 +200,33 @@ export const techExp = [
 
 export const skills = [
   {
-    name: "HMTL",
-    icon: "/images/html.png",
+    name: "React",
+    icon: "/images/react.png",
   },
   {
-    name: "CSS",
-    icon: "/images/css.png",
+    name: "TypeScript",
+    icon: "/images/typescript.png",
   },
+
   {
     name: "TailwindCSS",
     icon: "/images/tailwind.png",
   },
   {
-    name: "JavaScript",
-    icon: "/images/javascript.png",
+    name: "GraphQL",
+    icon: "/images/graphql.png",
   },
-
   {
-    name: "React",
-    icon: "/images/react.png",
+    name: "NestJS",
+    icon: "/images/nestjs.png",
+  },
+  {
+    name: "HTML",
+    icon: "/images/html.png",
+  },
+  {
+    name: "CSS",
+    icon: "/images/css.png",
   },
   {
     name: "Angular",
